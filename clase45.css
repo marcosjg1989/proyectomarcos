@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    height: 720px;
+    width: 1000;
+    background-color: rgb(233, 231, 231);
+    justify-content: center;
+
+
+}
+.inicio {
+    height:720;
+    width: 400;
+    background-color: green;
+   
+    }
+.logo {
+    height: 720px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    align-self: flex-end;
+    
+    }
