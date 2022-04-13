@@ -8,15 +8,19 @@
 
 }
 .inicio {
-    height:720;
-    width: 400;
-    background-color: green;
-   
-    }
-.logo {
-    height: 720px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;  
+    height:720px;
     width: 400px;
-    background-color: rgb(255, 255, 255);
-    align-self: flex-end;
+   
+}
+.logo {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;    
+    height: 720px;
+    width: 400px;     
+    
     
     }
