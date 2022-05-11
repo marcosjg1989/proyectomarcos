@@ -21,7 +21,7 @@
             </div>
             <div class="col-6">
                 <div class="inicio">
-                    <form>
+                    <form id="formulario">
                         <div class="mb-3">
                           <label for="exampleInputEmail1" class="form-label"></label>
                           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electronico o número de telefono">
@@ -29,11 +29,26 @@
                         </div>
                         <div class="mb-3">
                           <label for="exampleInputPassword1" class="form-label" placeholder="Contraseña"></label>
-                          <input type="password" class="form-control" id="exampleInputPassword1">
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
                         </div>
-                        <button type="submit" class="btn btn-primary">Inciar Sesion</button> <!--class="btn btn-primary"-->
-                        <a href="https://es-la.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjUxNTA2MzU2LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&amp;ars=facebook_login">¿Olvidaste tu contraseña?</a>
+                        <div>
+                            <button type="submit" class="btn btn-primary" id="boton" >Inciar sesion</button>
+                        </div>
+                        <div id="olvidasteContraseña">
+                            <a id= "olviContraseña" href="https://es-la.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjUxNTA2MzU2LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&amp;ars=facebook_login">¿Olvidaste tu contraseña?</a>
+                        </div>
+                        <div>--------------------------------------------------------------</div>
+                        <div id="crearCuenta">
+                            <button type="submit" class="btn btn-success">Crear cuenta nueva</button>
+                        </div> 
+                        
                     </form>
+                    <div>
+                        <a id="celebrity" href="/pages/create/?ref_type=registration_form" class="_8esh">Crea una página </a>
+                        para una celebridad, una marca o un negocio.
+                    </div>
+                    
+                    
         
                 </div>
             </div>
